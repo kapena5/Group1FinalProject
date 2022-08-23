@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Karla&family=Monoton&display=swap" rel="stylesheet">
+    <!-- Include Bootstrap from CDN -->  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Group 1 Final Project</title>
+  </head>
+  <body>  
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Steward</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">Reviews</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/tea.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Tea</h5>
+            <!-- <p>Some representative placeholder content for the first slide.</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/coffee.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Coffee</h5>
+            <!-- <p>Some representative placeholder content for the first slide.</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/alcohol.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Alcohol</h5>
+            <!-- <p>Some representative placeholder content for the first slide.</p> -->
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="about">
+      <h1 class="aboutHeader" id="about">About</h1>
+      <div class="contains">
+        <h3>"Hello, I will be your STEWARD today, what are you sipping?"</h3>
+      <img src="images/hero_tea.jpeg" class="aboutImg img-fluid float-end">
+      <p>STEWARD is a beverage journal that keeps track of likes, dislikes, tasting notes, 
+        and all the subtle nuances and details about the drink as the user would like to 
+        document. This is an app with the purpose of journaling about your  beverage 
+        experience, refining one’s pallet, and encouraging you to explore the liquid 
+        world around them.</p>
+        <p>Our onboarding questionnaire is unique in that it engages the user as to what 
+          they are sipping on throughout the day. You’ll be asked a series of questions: 
+          Do you drink Alcoholic beverages? Caffeine? Sugar content? The user can choose 
+          how much info they disclose for a more general or nuanced experience.</p>
+        <p>The user then has a series of frames with prompts to fill in about a beverage, 
+          some of these options being terroir, maker, age, tasting notes; with the ability 
+          to eventually check into a specific location, share their experience on social 
+          media, and collect their beverages into yum/meh/yuck piles</p>
+          <p>Our cause here is for personal education and self reflection. So many times, 
+            we breeze through our day without really deeply tasting and connecting with 
+            the vital task of putting something in our mouths. </p>
+            <p>Using our senses, particularly the sense of smell and taste, can be a form 
+              of focused meditation. Practices like these have been proven to keep maintain 
+              the brain’s plasticity well into old age. “The more senses one uses in learning 
+              something, the more of our brain that will be involved in retaining the 
+              memory.”* Physicians are also recommending patients recovering from loss of 
+              taste/smell from Covid-19 infection to keep a journal of their experiences**. </p>
+              <p>A beverage journal that engages the user’s 5 senses will be a valuable tool 
+                and personal record keeping for self and others to benefit from for years to come.</p>
+                <a href="https://www.health.harvard.edu/mind-and-mood/6-simple-steps-to-keep-your-mind-sharp-at-any-age">* Harvard Health article</a>
+                <br>
+                <a href="https://www.bmj.com/content/378/bmj-2021-069503">** Sense of taste/smell study</a>
+      </div>
+    </section>
+
+    <section class="features">
+      <h1 class="featuresHeader" id="features">Features</h1>
+      <div class="availableFeatures contains">
+        <div class="block">
+          <h3>Home</h3>
+          <div class="feature home">
+            <img src="images/home-page.png" class="featureImg img-fluid">
+            <div>
+              <p>While on the home page, start your journal entry for a drink you'd like to make a record of.
+                You can even add other drinks as you see fit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h3>Selection</h3>
+          <div class="feature selection">
+            <img src="images/mao-feng.png" class="featureImg img-fluid">
+            <div>
+              <p>Once you've identified the drink you will be journaling, you can learn more about it and start entering
+                your tasting notes.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h3>Aroma</h3>
+          <div class="feature aroma">
+            <img src="images/aroma-wheel-filled.png" class="featureImg img-fluid">
+            <div>
+              <p>If the drink you are recording is a tea, you can use the aroma wheel to select 
+                words that best describe your experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Fake/Non-fake reviews of the app-->
+    <section class="reviews" id="reviews">
+      <h1 class="reviewsHeader">Reviews</h1>
+      <div class="contains reviewCards">
+        <img src="images/Review-Celeste.png" class="reviewImg">
+        <img src="images/Review-John.png" class="reviewImg">
+        <img src="images/Review-Kris.png" class="reviewImg">
+      </div>
+    </section>
+
+    <section class="appStore">
+      <img src="https://scontent-den4-1.xx.fbcdn.net/v/t39.8562-6/85197745_206316130499918_4546292096213975040_n.svg?_nc_cat=104&ccb=1-7&_nc_sid=6825c5&_nc_ohc=xhcUxTrUeX0AX8NZ1VK&_nc_ht=scontent-den4-1.xx&oh=00_AT8VV9954F-ME_oSu2TEA4sItLDRuRMsJzoW2RxIQ9r4aA&oe=630849D1">
+      <img src="https://scontent-den4-1.xx.fbcdn.net/v/t39.8562-6/84279797_181209673129500_6131500912406953984_n.svg?_nc_cat=102&ccb=1-7&_nc_sid=6825c5&_nc_ohc=FW_bHE6cShwAX9QviMS&_nc_ht=scontent-den4-1.xx&oh=00_AT8mJV28TLPa0njGxVk3TKvfszE8jULqoydxPKZCkiAgjw&oe=630796AE">
+    </section>
+
+    <footer>
+      
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
