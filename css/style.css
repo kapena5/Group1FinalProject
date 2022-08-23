@@ -70,8 +70,11 @@ section {
 .appStore {
     display: flex;
     justify-content: center;
-    align-content: center;
-    column-gap: 20px;
+}
+.appIcons {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
 }
 .availableFeatures {
     display: flex;
