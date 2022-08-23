@@ -13,15 +13,40 @@ footer {
     min-height: 300px;
     object-fit: cover;
 }
+.aboutContains {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.aboutContains > div {
+    display: flex;
+    align-items: center;
+}
+.enthusiasts {
+    flex-direction: row-reverse;
+}
 .aboutImg {
-    height: 500px;
+    height: 600px;
     width: auto;
     padding: 50px;
+}
+.wellbeingImg {
+    height: auto;
+    width: 500px;
+    padding: 50px;
+}
+.enthusiastText, .wellbeingText {
+    min-width: 300px;
+    max-width: 600px;
 }
 .navbar-brand {
     font-family: 'Monoton', cursive;
     font-size: 50px;
     padding: 10px;
+}
+.block {
+    padding: 20px 0px;
 }
 p {
     font-family: 'Karla';
@@ -93,4 +118,12 @@ section {
 }
 .reviewImg {
     height: 200px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3 {
+    text-align: center;
 }
