@@ -67,6 +67,10 @@ section {
 .contains {
     margin: 40px 20px;
 }
+.appVideo {
+    display: flex;
+    justify-content: center;
+}
 .appStore {
     display: flex;
     justify-content: center;
@@ -75,6 +79,10 @@ section {
     display: flex;
     justify-content: center;
     padding: 20px 0px;
+    gap: 40px;
+}
+.store-icon {
+    height: 200px;
 }
 .availableFeatures {
     display: flex;
